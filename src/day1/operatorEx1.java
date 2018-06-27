@@ -49,13 +49,13 @@ public class operatorEx1  {
         // 0 <= num1 <= 100  
         //num1이 0보다 크거나 같고, num1이 100보다 작거나 같다.
         //false 
+        // 0 <= num1   num1 <= 100
         //num1이 0보다 크거나 같거나, num1이 100보다 작거나 같다.
         //ture
         //&& 둘다 참일때만 참, 하나라도 거짓이면 거짓
         // || 둘다 거짓일때만 거짓, 하나라도 참이면 참
         // ! 참이면 거짓으로, 거짓이면 참으로
-        // 0 <= num1   num1 <= 100
-       boolean isScore = 0 <= num1 && num1 <= 100;
+    boolean isScore = 0 <= num1 && num1 <= 100;
        System.out.println(num1+"은 유요한 성적인가:" +isScore);
 	boolean isNot = !false;
 	System.out.println("!false : " + isNot);
@@ -109,27 +109,33 @@ public class operatorEx1  {
 			num1 = 15;
 			num3 = num1 >> 1;
 			System.out.println("15>>1 : " + num3);
-			//증감연산자 : ++, --
-			//++ : 원래 값에서 1이 증가 -- : 원래값에서 1이 감소
-			//++변수명[전위형], --변수명[후위형]
+			// 증감연산자 : ++, --
+			// ++ : 원래 값에서 1이 증가 -- : 원래값에서 1이 감소
+			// ++/-- 변수명[전위형], 변수명 ++/--[후위형]
 			num1 = 10;
 			num1++;
 			System.out.println("계산후 후위형 num1 : "+num1);
 			num1 = 10;
-			num1++;
+			++num1; 
 			System.out.println("계산후 전위형 num1 : "+num1);
 			num1 = 10;
 			System.out.println("계산중 후위형 num1 : "+num1++);
+			System.out.println("계산후 후위형 num1 : "+num1);
 			num1 = 10;
-			System.out.println("계산중 전위형 num1 : "+num1++);
+			System.out.println("계산중 전위형 num1 : " + ++num1);
 			//전위형 : 증가 후 동작[대입연산, 화면에출력]
 			//후위형 : 동작 후 증가
 			
-			// 조건 선택연산자[삼항연산자]
+			// 조건 선택연산자[삼항연산자] 조건문으로 대체 가능 
 			// [조건식]?[값1]:[값2];
 			// 조건식이 참이면 값1을, 거짓이면 값2 
 			System.out.println((10%2==0)?"짝수":"홀수");
 			
+			//결합 연산자 : 축약형
+            // num1 = num1 + 2;
+			// num1 += 2; 
+			// num1 = num1 << 1;
+			// num1 <<= 1;
 			
 			
 			
