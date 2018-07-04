@@ -21,8 +21,10 @@ case 'B':
 default:
 	System.out.println("A와B가 아닙니다");
 }
+
+
 int num =31;
-switch(num%2){
+switch(num%2){   //스위치 옆 소괄호에는 연산자 적용이 가능하다.
 case 0 :
 	System.out.println(num+"은(는) 짝수입니다");
 	break;
