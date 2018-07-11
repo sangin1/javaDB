@@ -40,9 +40,7 @@ public class ForEx5 {
 	    }else{
 	    	System.out.println(num+"는 합성수");
 	    }
-	    for( ; ; ){
-	    	//=무한루프
-	    }
+	    
 	}
 
 }
