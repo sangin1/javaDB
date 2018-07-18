@@ -34,8 +34,8 @@ public class Exam2 {
 		int cnt = 0; //배열에 저장된 개수
 		while(num != 0){
 			arr[cnt] = num %10 ;         //마지막 자리를 추출하여 배열에 저장
-			num = num/10;//숫자의 마지막 자리를 버리는 코드
-			cnt++ ;//저장된 갯수 증가
+			num = num/10;                //숫자의 마지막 자리를 버리는 코드
+			cnt++ ;                           //저장된 갯수 증가 
 		}
 		int i =0;
 		while(i<cnt){
