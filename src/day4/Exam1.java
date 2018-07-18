@@ -173,6 +173,7 @@ public class Exam1 {
 		for(i=1 ; i<=num ; i++){
 			for( int j =1; j<=Math.abs((num+1)/2) ;j++ ){
 				if( j<=Math.abs((num+1)/2-i)){
+					
 					System.out.print(" ");
 				}
 				else{
