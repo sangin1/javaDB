@@ -1,3 +1,4 @@
+
 package day2;
 
 public class ForEx3 {
