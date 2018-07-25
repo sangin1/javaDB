@@ -26,7 +26,7 @@ public class MathMethod {
 			}
 		}*/
 		/*gcd = GCD(num1,num2);
-		System.out.println(num1+"과"+num2+"의 최대 공약수는"+gcd);*/
+		System.out.println(num1+"과"+num2+"의 최대 공약수는"+gcd);*/ 
 		
 		
 		
@@ -37,6 +37,7 @@ public class MathMethod {
         System.out.println(lcm);
 	
 	}
+	/*최대공약수 메소드*/
 	public static int GCD(int num1, int num2){
 		int i;
 		int gcd =1;
@@ -58,9 +59,7 @@ public class MathMethod {
 		for(i=num1; i<=num1*num2; i+=num1)
 			if(i%num2==0){
 				return i;
-			}
-		
-		return 1;
+			}   return 1;
 	}
 	public static int LCM2(int num1, int num2){
 		return num1*num2/GCD(num1,num2);
