@@ -24,7 +24,7 @@ public class Baseballgame {
 		int com[] = createRandomArray(1,9,3);
 		int user[] = new int [3];
 		int ball = 0;
-		int strike = 0;
+		int strike = 0;  
 		Scanner scan = new Scanner(System.in);
 		//System.out.print("Á¤´ä : ");
 		//printArray(com);
