@@ -4,35 +4,35 @@ public class ScoreifEx {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-/* Á¤¼ö·Î µÈ ¼ºÀûÀ» ÇĞÁ¡À¸·Î Ãâ·ÂÇÏ¼¼¿ä
+/* ì •ìˆ˜ë¡œ ëœ ì„±ì ì„ í•™ì ìœ¼ë¡œ ì¶œë ¥í•˜ì„¸ìš”
  * 0~59 : F
  * 60~69  D
  * 70~79  C
  * 80~89  B
  * 90~100 A
- * ±×¿Ü : ¼ºÀûÀ» Àß¸ø ÀÔ·ÂÇß½À´Ï´Ù.
+ * ê·¸ì™¸ : ì„±ì ì„ ì˜ëª» ì…ë ¥í–ˆìŠµë‹ˆë‹¤.
  *  */
 		int score = 110;
 	    if ( 90 <= score && score <= 100){
-			System.out.println("ÇĞÁ¡ÀÌ A ÀÔ´Ï´Ù");
+			System.out.println("í•™ì ì´ A ì…ë‹ˆë‹¤");
 		}
 		else if ( 80 <= score && score <= 89){
-			System.out.println("ÇĞÁ¡ÀÌ B ÀÔ´Ï´Ù");
+			System.out.println("í•™ì ì´ B ì…ë‹ˆë‹¤");
 		}
 		else if ( 70 <= score && score <= 79){
-			System.out.println("ÇĞÁ¡ÀÌ C ÀÔ´Ï´Ù");
+			System.out.println("í•™ì ì´ C ì…ë‹ˆë‹¤");
 		}
 		else if ( 60 <= score && score <= 69){
-			System.out.println("ÇĞÁ¡ÀÌ D ÀÔ´Ï´Ù");
+			System.out.println("í•™ì ì´ D ì…ë‹ˆë‹¤");
 		}
 		else if ( 0 <= score && score <= 59){
-			System.out.println("ÇĞÁ¡ÀÌ F ÀÔ´Ï´Ù");
+			System.out.println("í•™ì ì´ F ì…ë‹ˆë‹¤");
 		}
 		else{
-			System.out.println("¼ºÀûÀ» Àß¸ø ÀÔ·ÂÇÏ¼Ë½À´Ï´Ù.");
+			System.out.println("ì„±ì ì„ ì˜ëª» ì…ë ¥í•˜ì…§ìŠµë‹ˆë‹¤.");
 		}
-		
-		// else if À» ÇØ¾ß È¿À²ÀûÀÌ´Ù Ã¹¹øÂ°´Â  if 
+		//ã…
+		// else if ì„ í•´ì•¼ íš¨ìœ¨ì ì´ë‹¤ ì²«ë²ˆì§¸ëŠ”  if 
 		
 	}
 
